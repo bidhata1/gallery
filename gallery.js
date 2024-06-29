@@ -1,35 +1,4 @@
 
-/*const images=[
-    'images/heello.jpg',
-    'images/hi.jpg',
-    'images/hii.jpg',
-    'images/hiii.jpg'
-];
-
-let currentIndex= 0;
-
-const photoElement=document.getElementById('current-photo');
-const previousButton=document.getElementById('previous');
-const nextButton=document.getElementById('next');
-
-function updateImage(){
-    photoElement.src=images[currentIndex];
-}
-
-//Eventlistener for button
-
-previousButton.addEventListener('click', ()=>{
-    currentIndex=(currentIndex>0)? currentIndex-1 :images.length-1;
-    updateImage();
-});
-
-nextButton.addEventListener('click', ()=>{
-    currentIndex=(currentIndex<images.length-1) ? currentIndex+1 : 0;
-    updateImage();
-});
-
-updateImage();
-*/
 document.addEventListener('DOMContentLoaded', () => {
     // Array of image paths
     const images = [
