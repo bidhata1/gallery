@@ -8,7 +8,7 @@ body{
         margin: 0;
    
 }
-#main {
+.main {
     text-align: center;
     max-width: 800px;
     width: 100%;
@@ -75,7 +75,7 @@ body{
         
     }
     @media only screen and (max-width: 768px) {
-        #main {
+        .main {
           
             max-width: 300px;
             margin-top: 20px;
