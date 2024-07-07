@@ -43,6 +43,11 @@
             transform: translateY(-50%);
             text-decoration: none;
             }
+            .prev:hover,
+.next:hover {
+    background-color: black; 
+    color: #ff0; 
+}
 
 .prev {
   left: 0;
